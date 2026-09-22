@@ -1,9 +1,9 @@
-import { ProtocolStats, NonceChallenge } from './types';
+﻿import { ProtocolStats, NonceChallenge } from './types';
 
 export class TradeDAORestClient {
   private baseEndpoint: string;
 
-  constructor(endpoint: string = 'https://trade.hivasigorta.com') {
+  constructor(endpoint: string = 'https://tradedao.org') {
     this.baseEndpoint = endpoint.replace(/\/$/, '');
   }
 
@@ -41,3 +41,4 @@ export class TradeDAORestClient {
     return (await response.json()) as NonceChallenge;
   }
 }
+

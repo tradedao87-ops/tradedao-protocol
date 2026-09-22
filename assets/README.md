@@ -1,4 +1,4 @@
-# TradeDAO Protocol ($TRDD) Brand & Token Assets
+﻿# TradeDAO Protocol ($TRDD) Brand & Token Assets
 
 This directory contains official standardized graphical assets and metadata specifications for the **TradeDAO Protocol Token (`$TRDD`)**.
 
@@ -18,7 +18,7 @@ All assets are optimized for **Web3 Wallets (MetaMask, Trust Wallet, Coinbase Wa
 | **Decimals** | `18` |
 | **Total Supply** | `1,000,000,000` (Fixed, Non-Mintable) |
 | **Official Burn Address** | `0x000000000000000000000000000000000000dEaD` |
-| **Official Website** | [https://trade.hivasigorta.com](https://trade.hivasigorta.com) |
+| **Official Website** | [https://tradedao.org](https://tradedao.org) |
 | **Explorer** | [PolygonScan](https://polygonscan.com/token/0x55d398326f99859FF77548524699982783197953) |
 | **Whitepaper & Architecture** | [TradeDAO Protocol Docs](https://github.com/tradedao87-ops/tradedao-protocol) |
 
@@ -71,7 +71,7 @@ blockchains/polygon/assets/0x55d398326f99859FF77548524699982783197953/
   "type": "POLYGON",
   "symbol": "TRDD",
   "decimals": 18,
-  "website": "https://trade.hivasigorta.com",
+  "website": "https://tradedao.org",
   "description": "Institutional Quantitative Trading Bot Infrastructure & Systematic Revenue Protocol with dynamic 30% Buyback & Burn and 30% Liquid USDT Yield Stream.",
   "explorer": "https://polygonscan.com/token/0x55d398326f99859FF77548524699982783197953",
   "status": "active",
@@ -100,3 +100,4 @@ The official standard Uniswap/1inch tokenlist definition is maintained at [`asse
     `https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/assets/trdd-token-256.png`
 - **Background:** High-definition 3D gold-copper metallic relief with cyan/emerald ambient luminescence, optimized for dark mode interfaces.
 - **Aspect Ratio:** Strictly 1:1 (Square).
+

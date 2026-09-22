@@ -1,4 +1,4 @@
-# TradeDAO Public Telemetry API Specification
+﻿# TradeDAO Public Telemetry API Specification
 
 TradeDAO exposes public endpoints and WebSocket feeds enabling developers, quantitative researchers, auditors, and token holders to consume real-time performance telemetry.
 
@@ -8,7 +8,7 @@ TradeDAO exposes public endpoints and WebSocket feeds enabling developers, quant
 
 ### Base URL
 ```
-https://trade.hivasigorta.com
+https://tradedao.org
 ```
 
 ---
@@ -81,7 +81,7 @@ Generates a 5-minute single-use cryptographic challenge for Web3 wallet authenti
 
 ### Connection URL
 ```
-wss://trade.hivasigorta.com
+wss://tradedao.org
 ```
 
 ### Events
@@ -105,3 +105,4 @@ wss://trade.hivasigorta.com
   }
 ]
 ```
+

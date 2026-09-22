@@ -1,4 +1,4 @@
-# TradeDAO ($TRDD) Tokenomics
+﻿# TradeDAO ($TRDD) Tokenomics
 
 <p align="center">
   <img src="../assets/trdd-token-256.png" alt="TradeDAO ($TRDD) Token Logo" width="140" height="140" />
@@ -50,4 +50,5 @@ Because 30% of all ongoing trading bot profits are dedicated to spot market buyb
 $$\text{Circulating Supply}_t = \text{Initial Supply} - \sum_{i=1}^{t} \text{Tokens Burned}_i$$
 
 - **Net Deflation:** The total token supply strictly decreases over time.
-- **Audited Burn Proofs:** Every burn transaction is verifiable on the public blockchain explorer, with cumulative burn volume broadcasted live to the [Public Telemetry Terminal](https://trade.hivasigorta.com).
+- **Audited Burn Proofs:** Every burn transaction is verifiable on the public blockchain explorer, with cumulative burn volume broadcasted live to the [Public Telemetry Terminal](https://tradedao.org).
+
