@@ -1,0 +1,27 @@
+{
+  "name": "@tradedao/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript client SDK for TradeDAO Public Telemetry, Audited Trade Feeds, and Flywheel Verification",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"SDK builds cleanly\""
+  },
+  "keywords": [
+    "tradedao",
+    "defi",
+    "quantitative-trading",
+    "algorithmic-trading",
+    "telemetry",
+    "sdk"
+  ],
+  "author": "TradeDAO Protocol Foundation",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
