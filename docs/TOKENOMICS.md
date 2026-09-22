@@ -1,6 +1,12 @@
 # TradeDAO ($TRDD) Tokenomics
 
+<p align="center">
+  <img src="../assets/trdd-token-256.png" alt="TradeDAO ($TRDD) Token Logo" width="140" height="140" />
+</p>
+
 The TradeDAO Protocol Token (`$TRDD`) serves as the core utility, value capture, and profit-sharing vehicle for the TradeDAO autonomous trading infrastructure.
+
+> **Official Brand Assets & Wallet Integration:** Standardized high-resolution logos for Web3 wallets (MetaMask, TrustWallet), DEXs (Uniswap, QuickSwap), and listing sites (CoinMarketCap, CoinGecko) are available in the [Brand Assets Directory](../assets/README.md).
 
 ---
 
@@ -10,12 +16,15 @@ The TradeDAO Protocol Token (`$TRDD`) serves as the core utility, value capture,
 |---|---|
 | **Token Name** | TradeDAO Token |
 | **Token Symbol** | `$TRDD` |
+| **Blockchain** | Polygon (POS) Mainnet (Chain ID 137) |
+| **Decimals** | 18 |
 | **Total Supply** | `1,000,000,000 $TRDD` (One Billion Fixed) |
 | **Mint Function** | **Permanently Disabled** (Non-Mintable) |
 | **Token Standard** | ERC-20 / BEP-20 Compatible |
 | **Contract Address** | `0x55d398326f99859FF77548524699982783197953` |
 | **Official Burn Vault** | `0x000000000000000000000000000000000000dEaD` |
 | **DEX Liquidity** | Uniswap V3 / DEX Automated Pools |
+| **Brand Assets** | [View Standardized Logos](../assets/README.md) |
 
 ---
 

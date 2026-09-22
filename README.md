@@ -4,6 +4,10 @@
 
 ![TradeDAO Banner](https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/docs/assets/banner.png)
 
+<p align="center">
+  <img src="./assets/trdd-token-256.png" alt="TradeDAO Protocol Token ($TRDD)" width="140" height="140" />
+</p>
+
 **Institutional Quantitative Trading Bot Infrastructure & Systematic Revenue Protocol**
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -13,7 +17,7 @@
 [![Tokenomics](https://img.shields.io/badge/Supply-1%2C000%2C000%2C000_%24TRDD-f59e0b.svg)](https://trade.hivasigorta.com)
 [![TypeScript SDK](https://img.shields.io/badge/SDK-TypeScript_%7C_Node.js-3178c6.svg)](./sdk)
 
-[Live Terminal](https://trade.hivasigorta.com) • [Architecture](./docs/ARCHITECTURE.md) • [Risk Management](./docs/RISK_MANAGEMENT.md) • [Value Flywheel](./docs/VALUE_FLYWHEEL.md) • [Tokenomics](./docs/TOKENOMICS.md) • [Telemetry API](./docs/API_SPECIFICATION.md)
+[Live Terminal](https://trade.hivasigorta.com) • [Architecture](./docs/ARCHITECTURE.md) • [Risk Management](./docs/RISK_MANAGEMENT.md) • [Value Flywheel](./docs/VALUE_FLYWHEEL.md) • [Tokenomics](./docs/TOKENOMICS.md) • [Brand Assets](./assets/README.md) • [Telemetry API](./docs/API_SPECIFICATION.md)
 
 </div>
 

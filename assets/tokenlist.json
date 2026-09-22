@@ -1,0 +1,32 @@
+{
+  "name": "TradeDAO Token List",
+  "timestamp": "2026-09-22T16:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {
+    "defi": {
+      "name": "DeFi",
+      "description": "Decentralized Finance Protocol Tokens"
+    },
+    "algorithmic": {
+      "name": "Quantitative Algorithmic",
+      "description": "Autonomous Quantitative Trading Systems"
+    }
+  },
+  "logoURI": "https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/assets/trdd-token-256.png",
+  "keywords": ["tradedao", "trdd", "quant", "bot", "algorithmic", "polygon", "defi"],
+  "tokens": [
+    {
+      "chainId": 137,
+      "address": "0x55d398326f99859FF77548524699982783197953",
+      "name": "TradeDAO",
+      "symbol": "TRDD",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/assets/trdd-token-256.png",
+      "tags": ["defi", "algorithmic"]
+    }
+  ]
+}
