@@ -1,19 +1,19 @@
-# TradeDAO Smart Contracts
+# TradeDAO Smart Contracts & Program Architecture
 
-This directory contains verified interface definitions and ABI specifications for TradeDAO on-chain components.
+This directory contains verified interface definitions and program specifications for TradeDAO on-chain components.
 
-## Verified Contracts
+## Core On-Chain Components
 
-| Contract | Interface | Network | Address |
+| Component | Architecture | Network | Identifier / Mint |
 |---|---|---|---|
-| **$TRDD Token** | [`ITRDDToken.sol`](./interfaces/ITRDDToken.sol) | Polygon / EVM | `0x55d398326f99859FF77548524699982783197953` |
-| **Dead Burn Vault** | Burn Target | EVM Standard | `0x000000000000000000000000000000000000dEaD` |
-| **Buyback Vault** | [`IBuybackBurnVault.sol`](./interfaces/IBuybackBurnVault.sol) | Polygon / EVM | Deployed via Protocol Multi-Sig |
-| **Dividend Pool** | [`IDividendDistributor.sol`](./interfaces/IDividendDistributor.sol) | Polygon / EVM | Deployed via Protocol Multi-Sig |
+| **$TRDD Token** | Solana SPL Token Standard | Solana Mainnet (Pump.fun & PumpDex) | `TRDD...pump` ([Solscan](https://solscan.io)) |
+| **On-Chain Burn Vault** | Permanent SPL Token Burn | Solana Mainnet | Programmatic Burn Authority Revoked |
+| **Buyback Program** | Automated DEX Buyback Core | Solana / PumpDex | Programmatic Multi-Sig Execution |
+| **Dividend Distributor** | Liquid USDT / SOL Stream | Multi-Chain / Solana | Audited Protocol Treasury Vault |
 
-## Compilation & Integration
+## Solidity / EVM Interfaces (Multi-Chain Reference)
 
-Interfaces are compatible with Solidity `^0.8.20` and can be imported directly into Hardhat, Foundry, or Truffle environments:
+For cross-chain liquidity and telemetry integration, Solidity interfaces (`^0.8.20`) are maintained in `./interfaces/`:
 
 ```solidity
 import "./interfaces/ITRDDToken.sol";

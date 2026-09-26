@@ -1,6 +1,6 @@
 {
   "name": "TradeDAO Token List",
-  "timestamp": "2026-09-22T16:00:00.000Z",
+  "timestamp": "2026-09-26T12:00:00.000Z",
   "version": {
     "major": 1,
     "minor": 0,
@@ -14,19 +14,23 @@
     "algorithmic": {
       "name": "Quantitative Algorithmic",
       "description": "Autonomous Quantitative Trading Systems"
+    },
+    "solana": {
+      "name": "Solana SPL",
+      "description": "Solana Ecosystem Assets"
     }
   },
   "logoURI": "https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/assets/trdd-token-256.png",
-  "keywords": ["tradedao", "trdd", "quant", "bot", "algorithmic", "polygon", "defi"],
+  "keywords": ["tradedao", "trdd", "quant", "bot", "algorithmic", "solana", "pumpfun", "pumpdex", "defi"],
   "tokens": [
     {
-      "chainId": 137,
-      "address": "0x55d398326f99859FF77548524699982783197953",
+      "chainId": 101,
+      "address": "TRDD...pump",
       "name": "TradeDAO",
       "symbol": "TRDD",
-      "decimals": 18,
+      "decimals": 6,
       "logoURI": "https://raw.githubusercontent.com/tradedao87-ops/tradedao-protocol/main/assets/trdd-token-256.png",
-      "tags": ["defi", "algorithmic"]
+      "tags": ["defi", "algorithmic", "solana"]
     }
   ]
 }

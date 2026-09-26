@@ -1,4 +1,4 @@
-﻿# TradeDAO Protocol
+# TradeDAO Protocol
 
 <div align="center">
 
@@ -27,7 +27,7 @@
 
 **TradeDAO** is an institutional-grade quantitative algorithmic trading infrastructure designed to extract systematic alpha across high-liquidity digital asset markets 24 hours a day, 7 days a week. Powered by multi-exchange routing, statistical volatility scanning, and strict risk guardrails, TradeDAO funnels **100% of realized trading performance** directly into a closed-loop economic ecosystem:
 
-1. **30% Dynamic Buyback & Permanent Burn:** Real-time spot market order execution absorbing circulating `$TRDD` supply directly into the dead burn address (`0x000...dEaD`).
+1. **30% Dynamic Buyback & Permanent Burn:** Real-time spot market order execution absorbing circulating `$TRDD` supply via PumpDex / Pump.fun and permanently burning SPL tokens on-chain.
 2. **30% Liquid USDT Yield Stream:** Continuous, un-locked stablecoin dividend distribution streamed to verified token holders.
 3. **40% Trading Bot Reserve Compounding:** Re-injected directly into quantitative position margin to systematically scale position sizing, compounding operational capacity over time.
 
@@ -58,7 +58,7 @@ flowchart TD
         Buyback["30% Dynamic Spot DEX Buyback & Burn"]
         Dividend["30% Liquid USDT Holder Yield Stream"]
         Reserve["40% Compounded Trading Bot Reserve"]
-        BurnVault["Permanent Burn Address (0x0...dEaD)"]
+        BurnVault["Permanent On-Chain SPL Burn Vault"]
     end
 
     subgraph Telemetry ["Public Transparency Layer"]
@@ -119,12 +119,13 @@ For complete mathematical derivations and fee routing specifications, review the
 |---|---|
 | **Token Name** | TradeDAO Protocol Token |
 | **Ticker** | `$TRDD` |
+| **Blockchain** | Solana Mainnet (SPL Token) |
+| **Launchpad & DEX** | Pump.fun & PumpDex |
 | **Total Supply** | `1,000,000,000 $TRDD` (Fixed / Non-Mintable) |
 | **Token Type** | Utility & Deflationary Profit-Sharing |
-| **Burn Mechanism** | Programmatic DEX Spot Buybacks routed to Dead Address |
-| **Contract Address** | `0x55d398326f99859FF77548524699982783197953` |
-| **Burn Address** | `0x000000000000000000000000000000000000dEaD` |
-| **DEX Liquidity** | Uniswap V3 / DEX Pools with Automated Liquidity Locks |
+| **Burn Mechanism** | Continuous 30% Trading Profit Buyback via PumpDex & On-Chain Burn |
+| **Token Mint Address** | `TRDD...pump` ([View on Solscan](https://solscan.io)) |
+| **DEX Liquidity** | Pump.fun Bonding Curve / PumpDex Automated Liquidity Pools |
 
 Detailed distribution, vesting, and lock schedules are documented in [Tokenomics Specification](./docs/TOKENOMICS.md).
 
