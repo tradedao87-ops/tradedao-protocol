@@ -72,4 +72,4 @@ $$\text{Circulating Supply}_t = \text{Initial Supply} - \sum_{i=1}^{t} \text{Tok
 
 1. **30% Dynamic Spot DEX Buyback:** The protocol engine systematically routes 30% of net realized trading profits to market-buy `$TRDD` on PumpDex.
 2. **Permanent On-Chain SPL Token Burn:** Acquired tokens are immediately transferred to the Solana SPL token burn program, irreversibly removing them from circulating supply.
-3. **Audited Transparency:** Every burn transaction generates a verifiable Solana transaction hash (Solscan signature) broadcasted live to the [Public Telemetry Dashboard](https://tradedao.org).
+3. **Audited Transparency:** Every burn transaction generates a verifiable Solana transaction hash (Solscan signature) broadcasted live to the [Public Telemetry Dashboard](https://www.tradedao.ai).

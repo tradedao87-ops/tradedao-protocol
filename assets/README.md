@@ -18,7 +18,7 @@ All assets are optimized for **Solana Web3 Wallets (Phantom, Solflare, Backpack,
 | **Decimals** | `6` |
 | **Total Supply** | `1,000,000,000` (Fixed, Non-Mintable) |
 | **Official Burn Method** | Continuous PumpDex Buyback & On-Chain Burn |
-| **Official Website** | [https://tradedao.org](https://tradedao.org) |
+| **Official Website** | [https://www.tradedao.ai](https://www.tradedao.ai) |
 | **Official X (Twitter)** | [@Tradedaoai](https://x.com/Tradedaoai) |
 | **Explorer** | [Solscan](https://solscan.io) |
 | **Whitepaper & Architecture** | [TradeDAO Protocol Docs](https://github.com/tradedao87-ops/tradedao-protocol) |

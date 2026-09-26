@@ -1,4 +1,4 @@
-﻿import { TradeDAORestClient } from './rest';
+import { TradeDAORestClient } from './rest';
 import { TradeDAOWebSocketClient } from './websocket';
 import { TradeDAOClientConfig, ProtocolStats, LivePosition, AuditedTrade, NonceChallenge } from './types';
 
@@ -7,7 +7,7 @@ export class TradeDAOClient {
   private ws: TradeDAOWebSocketClient;
 
   constructor(config: TradeDAOClientConfig = {}) {
-    const endpoint = config.endpoint || 'https://tradedao.org';
+    const endpoint = config.endpoint || 'https://www.tradedao.ai';
     const wsEndpoint = config.wsEndpoint || endpoint;
 
     this.rest = new TradeDAORestClient(endpoint);

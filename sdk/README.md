@@ -1,4 +1,4 @@
-﻿# @tradedao/sdk
+# @tradedao/sdk
 
 Official TypeScript & JavaScript client SDK for **TradeDAO Protocol**.
 
@@ -24,7 +24,7 @@ pnpm add @tradedao/sdk
 import { TradeDAOClient } from '@tradedao/sdk';
 
 const client = new TradeDAOClient({
-  endpoint: 'https://tradedao.org'
+  endpoint: 'https://www.tradedao.ai'
 });
 
 async function run() {

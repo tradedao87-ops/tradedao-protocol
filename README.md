@@ -11,14 +11,14 @@
 **Institutional Quantitative Trading Bot Infrastructure & Systematic Revenue Protocol**
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Protocol Status](https://img.shields.io/badge/Protocol-Active_Live_24%2F7-10b981.svg)](https://tradedao.org)
+[![Protocol Status](https://img.shields.io/badge/Protocol-Active_Live_24%2F7-10b981.svg)](https://www.tradedao.ai)
 [![X (Twitter)](https://img.shields.io/badge/X-@Tradedaoai-000000.svg?logo=x&logoColor=white)](https://x.com/Tradedaoai)
-[![Execution Multi-Exchange](https://img.shields.io/badge/Execution-Binance%20%7C%20Bybit%20%7C%20OKX-38bdf8.svg)](https://tradedao.org)
-[![Audited Trades](https://img.shields.io/badge/Audited_Trades-Live_On--Chain-8b5cf6.svg)](https://tradedao.org)
-[![Tokenomics](https://img.shields.io/badge/Supply-1%2C000%2C000%2C000_%24TRDD-f59e0b.svg)](https://tradedao.org)
+[![Execution Multi-Exchange](https://img.shields.io/badge/Execution-Binance%20%7C%20Bybit%20%7C%20OKX-38bdf8.svg)](https://www.tradedao.ai)
+[![Audited Trades](https://img.shields.io/badge/Audited_Trades-Live_On--Chain-8b5cf6.svg)](https://www.tradedao.ai)
+[![Tokenomics](https://img.shields.io/badge/Supply-1%2C000%2C000%2C000_%24TRDD-f59e0b.svg)](https://www.tradedao.ai)
 [![TypeScript SDK](https://img.shields.io/badge/SDK-TypeScript_%7C_Node.js-3178c6.svg)](./sdk)
 
-[Live Terminal](https://tradedao.org) • [Official X (@Tradedaoai)](https://x.com/Tradedaoai) • [Architecture](./docs/ARCHITECTURE.md) • [Risk Management](./docs/RISK_MANAGEMENT.md) • [Value Flywheel](./docs/VALUE_FLYWHEEL.md) • [Tokenomics](./docs/TOKENOMICS.md) • [Brand Assets](./assets/README.md) • [Telemetry API](./docs/API_SPECIFICATION.md)
+[Live Terminal](https://www.tradedao.ai) • [Official X (@Tradedaoai)](https://x.com/Tradedaoai) • [Architecture](./docs/ARCHITECTURE.md) • [Risk Management](./docs/RISK_MANAGEMENT.md) • [Value Flywheel](./docs/VALUE_FLYWHEEL.md) • [Tokenomics](./docs/TOKENOMICS.md) • [Brand Assets](./assets/README.md) • [Telemetry API](./docs/API_SPECIFICATION.md)
 
 </div>
 
@@ -148,7 +148,7 @@ npm install @tradedao/sdk
 import { TradeDAOClient } from '@tradedao/sdk';
 
 const client = new TradeDAOClient({
-  endpoint: 'https://tradedao.org'
+  endpoint: 'https://www.tradedao.ai'
 });
 
 async function main() {
@@ -232,7 +232,7 @@ TradeDAO operates as a decentralized, autonomous algorithmic infrastructure. Qua
 
 **TradeDAO Protocol Foundation**  
 *Autonomous Quantitative Trading Infrastructure & Systematic Deflationary Protocol*  
-[https://tradedao.org](https://tradedao.org) • [Follow on X: @Tradedaoai](https://x.com/Tradedaoai)
+[https://www.tradedao.ai](https://www.tradedao.ai) • [Follow on X: @Tradedaoai](https://x.com/Tradedaoai)
 
 </div>
 

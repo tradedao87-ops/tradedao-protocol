@@ -1,4 +1,4 @@
-﻿import { io, Socket } from 'socket.io-client';
+import { io, Socket } from 'socket.io-client';
 import { LivePosition } from './types';
 
 export class TradeDAOWebSocketClient {
@@ -6,7 +6,7 @@ export class TradeDAOWebSocketClient {
   private endpoint: string;
   private token?: string;
 
-  constructor(endpoint: string = 'https://tradedao.org', token?: string) {
+  constructor(endpoint: string = 'https://www.tradedao.ai', token?: string) {
     this.endpoint = endpoint;
     this.token = token;
   }
