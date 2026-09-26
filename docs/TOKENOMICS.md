@@ -26,6 +26,7 @@ The TradeDAO Protocol Token (`$TRDD`) serves as the core utility, value capture,
 | **Token Mint Address** | `TRDD...pump` | [View on Solscan](https://solscan.io) |
 | **Official Burn Method** | Continuous On-Chain SPL Burn | 30% Trading Profits buy back on PumpDex & burn |
 | **Trading Tax** | `0% / 0%` (Zero Tax) | Frictionless institutional execution |
+| **Official X (Twitter)** | [@Tradedaoai](https://x.com/Tradedaoai) | Official verified broadcasts & alpha |
 | **Brand Assets** | [View Standardized Logos](../assets/README.md) | Official SVG and PNG kits |
 
 ---
